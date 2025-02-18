@@ -59,7 +59,6 @@ providers:
     status: active
 ```
 
-
 ## TroubleShooting
 ```bash
 OPENSSL_ROOT_DIR=~/epqd_server_lib/ OPENSSL_INSTALL=/usr/local/lib64 ./scripts/fullbuild.sh  
