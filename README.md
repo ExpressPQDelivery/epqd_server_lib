@@ -42,6 +42,23 @@ oqsprovider = oqsprovider_sect
 activate = 1
 ```
 
+### Checking OQS-Provider
+
+If successfully done, running, e.g., `openssl list -providers`
+should output something along these lines (version IDs variable of course):
+
+```
+providers:
+  default
+    name: OpenSSL Default Provider
+    version: 3.3.0
+    status: active
+  oqsprovider
+    name: OpenSSL OQS Provider
+    version: 0.5.4-dev
+    status: active
+```
+
 
 ## TroubleShooting
 ```bash
